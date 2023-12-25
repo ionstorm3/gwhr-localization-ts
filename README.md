@@ -1,0 +1,1 @@
+Text localization library for use in Typescript/Javascript projects

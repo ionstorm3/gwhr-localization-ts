@@ -1,0 +1,36 @@
+{
+  "name": "gwhr-localization-ts",
+  "version": "0.0.1",
+  "description": "Typescript/Javascript library for text localization",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionstorm3/gwhr-localization-ts.git"
+  },
+  "keywords": [
+    "text",
+    "localization",
+    "res",
+    "resource",
+    "files",
+    "typescript"
+  ],
+  "author": "Gregory Hawkes-Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ionstorm3/gwhr-localization-ts/issues"
+  },
+  "homepage": "https://github.com/ionstorm3/gwhr-localization-ts#readme",
+  "dependencies": {
+    "gwhr-bcl-ts": "^0.0.1"
+  }
+}
